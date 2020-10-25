@@ -20,11 +20,8 @@
 - Then open your terminal and go into the project
 - Run command `npm install`
 - Then go into the `www` folder
-- Run command `composer install`
-- Then open the `.env-example` file in the `www` folder
-- Copy everything inside of the `.env-example`
-- Then make a file called `.env` inside of the `www` folder
-- Paste everything from the `.env-example` into the `.env` file
+- Run command `php -r "file_exists('.env') || copy('.env.example', '.env');"`
+- Run command `composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist`
 - Run command `php artisan key:generate`
 
 ## How to run
