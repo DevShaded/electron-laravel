@@ -1,3 +1,8 @@
+/*
+ * Code by Laravel Article
+ * I just cleaned some code up!
+ */
+
 // Requiring electron.js
 const electron = require('electron')
 const path = require('path')
