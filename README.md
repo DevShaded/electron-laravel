@@ -4,6 +4,8 @@
 <img src="https://laravel.com/img/logomark.min.svg" alt="Laravel Logo" width="170"/> 
 </p>
 
+:exclamation:  This GitHub repository uses deprecated npm packages
+
 # Electron JS with Laravel
 > PHP VERSION: 7.4.11,
 >LARAVEL VERSION 8x
